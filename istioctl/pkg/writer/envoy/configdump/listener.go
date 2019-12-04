@@ -21,6 +21,7 @@ import (
 	"text/tabwriter"
 
 	xdsapi "github.com/envoyproxy/go-control-plane/envoy/api/v2"
+	_ "github.com/envoyproxy/go-control-plane/envoy/config/filter/http/ext_authz/v2"
 
 	protio "istio.io/istio/istioctl/pkg/util/proto"
 )

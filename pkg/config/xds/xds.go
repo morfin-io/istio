@@ -27,6 +27,7 @@ import (
 	"github.com/gogo/protobuf/types"
 	"github.com/golang/protobuf/jsonpb"
 	"github.com/golang/protobuf/proto"
+	_ "github.com/envoyproxy/go-control-plane/envoy/config/filter/http/ext_authz/v2"
 
 	networking "istio.io/api/networking/v1alpha3"
 )
